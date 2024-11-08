@@ -43,7 +43,7 @@ Events --> Logs[File Logs]
 
 Clone the repository
 ```bash
-git clone https://github.com/yourusername/responsive-chat-tui.git
+git clone https://github.com/oneryalcin/blog_textual_observer.git
 ```
 
 Create and activate virtual environment
