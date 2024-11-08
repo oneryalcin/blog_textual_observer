@@ -1,0 +1,43 @@
+Screen {
+    align: center middle;
+}
+
+#chat-container {
+    width: 80%;
+    height: 90%;
+    border: solid green;
+    background: $surface-darken-1;
+    padding: 1;
+    layout: grid;
+    grid-size: 1;
+    grid-rows: 1fr auto;
+}
+
+#message-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    border-bottom: solid $primary-darken-2;
+}
+
+#input-container {
+    width: 100%;
+    height: auto;
+    align: center bottom;
+}
+
+Input {
+    width: 100%;
+    margin: 1 0 0 0;
+    background: $surface;
+    border: tall $primary;
+    height: 3;
+}
+
+ChatMessage {
+    width: 100%;
+    padding: 1;
+    background: $surface;
+    border-bottom: solid $panel;
+    height: auto;
+} 
